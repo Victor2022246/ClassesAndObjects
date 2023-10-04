@@ -4,6 +4,10 @@
  */
 package classes.objects;
 
+import shapes.Triangle;
+
+
+
 /**
  *
  * @author victor pc
