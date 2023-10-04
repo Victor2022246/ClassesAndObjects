@@ -4,6 +4,7 @@
  */
 package classes.objects;
 
+import shapes.Rectangle;
 import shapes.Triangle;
 
 
@@ -18,12 +19,12 @@ public class ClassesObjects {
      * @param args the command line arguments
      */
     public static void main(String[] args) {
-        Triangle trill1 = new Triangle;
-        Triangle trill2 = new Triangle;
-        Triangle trill3 = new Triangle;
-        Triangle trill4 = new Triangle;
-        Triangle trill5 = new Triangle;
-        Triangle trill6 = new Triangle;
+        Triangle trill1 = new Triangle();
+        Triangle trill2 = new Triangle();
+        Triangle trill3 = new Triangle();
+        Triangle trill4 = new Triangle();
+        Triangle trill5 = new Triangle();
+        Triangle trill6 = new Triangle();
         
         int[] sideLengths = new int [18];
         //lengths of trill 1's side will be first, then the legths of trill2's side etc
@@ -43,8 +44,20 @@ public class ClassesObjects {
         sideLengths[0] = 5;
          sideLengths[0] = 5;
           sideLengths[0] = 5;
+          
+          
+          
+          
+          
+          Rectangle rect1 = new Rectangle();
+          
+          double reactArea = rect1.getArea();
+         System.out.println(reactArea); 
+          
+          
+         
         
         
     }
-    
+      
 }
