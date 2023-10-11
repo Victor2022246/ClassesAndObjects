@@ -8,10 +8,14 @@ package shapes;
  *
  * @author victor pc
  */
-public class Triangle {
+public class Triangle extends Shape{
     private int side1;
     private int side2;
     private int side3;
+
+    public Triangle(boolean isFilled, String colour) {
+        super(isFilled, colour);
+    }
 
     public int getSide1() {
         
@@ -40,6 +44,21 @@ public class Triangle {
 
     public void setSide3(int side3) {
         this.side3 = side3;
+    }
+
+    @Override
+    public double getArea() {
+      return 0.5 *side1 *side2;
+    }
+    
+    @Override
+    public void setColour(String colour){
+    if(colour.equals("blue")){
+    this.colour = "red";
+    
+    }
+    
+    
     }
     
 }

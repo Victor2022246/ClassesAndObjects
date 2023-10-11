@@ -49,7 +49,7 @@ public class ClassesObjects {
           
           
           
-          Rectangle rect1 = new Rectangle();
+          Rectangle rect1 = new Rectangle(true,"red");
           
           double reactArea = rect1.getArea();
          System.out.println(reactArea); 
